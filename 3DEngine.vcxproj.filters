@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources\Objects">
+      <UniqueIdentifier>{c9018135-6c04-42f7-8c5c-c9b14cb3b61f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Materials">
+      <UniqueIdentifier>{8660fa89-b746-463b-96ee-06ed066da035}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Transformations">
+      <UniqueIdentifier>{3d411c5c-0b34-4a4b-af71-c0fb7792cddd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Objects">
+      <UniqueIdentifier>{2aa1e703-f9bd-421a-b58a-e119b4323e12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Materials">
+      <UniqueIdentifier>{43926660-906d-40ff-92af-6676dcee30c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Transformations">
+      <UniqueIdentifier>{fdf112b9-48ea-4d96-a55f-ddf1b2c3bd7a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Scene.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Fichiers d%27en-tête\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Face.h">
+      <Filter>Fichiers d%27en-tête\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube.h">
+      <Filter>Fichiers d%27en-tête\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Fichiers d%27en-tête\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Fichiers d%27en-tête\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Fichiers d%27en-tête\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Fichiers d%27en-tête\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Fichiers d%27en-tête\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="LightMaterial.h">
+      <Filter>Fichiers d%27en-tête\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="FaceMaterial.h">
+      <Filter>Fichiers d%27en-tête\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Fichiers d%27en-tête\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Fichiers d%27en-tête\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Transformation.h">
+      <Filter>Fichiers d%27en-tête\Transformations</Filter>
+    </ClInclude>
+    <ClInclude Include="Translation.h">
+      <Filter>Fichiers d%27en-tête\Transformations</Filter>
+    </ClInclude>
+    <ClInclude Include="Rescaling.h">
+      <Filter>Fichiers d%27en-tête\Transformations</Filter>
+    </ClInclude>
+    <ClInclude Include="Rotation.h">
+      <Filter>Fichiers d%27en-tête\Transformations</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticObject.h">
+      <Filter>Fichiers d%27en-tête\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformableObject.h">
+      <Filter>Fichiers d%27en-tête\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="UvSphere.h">
+      <Filter>Fichiers d%27en-tête\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Cylinder.h">
+      <Filter>Fichiers d%27en-tête\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>Fichiers d%27en-tête\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Fichiers d%27en-tête\Objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="FaceMaterial.cpp">
+      <Filter>Fichiers sources\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="LightMaterial.cpp">
+      <Filter>Fichiers sources\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Fichiers sources\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Fichiers sources\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Cube.cpp">
+      <Filter>Fichiers sources\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Fichiers sources\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Translation.cpp">
+      <Filter>Fichiers sources\Transformations</Filter>
+    </ClCompile>
+    <ClCompile Include="Rescaling.cpp">
+      <Filter>Fichiers sources\Transformations</Filter>
+    </ClCompile>
+    <ClCompile Include="Rotation.cpp">
+      <Filter>Fichiers sources\Transformations</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cpp">
+      <Filter>Fichiers sources\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="Face.cpp">
+      <Filter>Fichiers sources\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>Fichiers sources\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Fichiers sources\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Fichiers sources\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="UvSphere.cpp">
+      <Filter>Fichiers sources\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Cylinder.cpp">
+      <Filter>Fichiers sources\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>Fichiers sources\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Vertex.cpp">
+      <Filter>Fichiers sources\Objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
